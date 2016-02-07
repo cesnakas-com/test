@@ -13,9 +13,19 @@
     padding: 0;
     outline: none;
 }
+img{
+    border: none;
+}
 body{
     color: @text-color;
     background: @bg-color;
+    a{
+        color: @brand;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
 }
 
 /*******************************
@@ -41,6 +51,9 @@ main{
     a{
         color: @brand;
     }
+    a:hover{
+        text-decoration: underline;
+    }
 }
 
 /*******************************
@@ -54,8 +67,9 @@ footer{
     margin: 0 auto;
     a{
         color: @brand;
+        text-decoration: none;
     }
-    & :hover{
+    a:hover{
         text-decoration: underline;
     }
 }

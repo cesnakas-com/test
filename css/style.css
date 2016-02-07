@@ -8,9 +8,19 @@
   padding: 0;
   outline: none;
 }
+img {
+  border: none;
+}
 body {
   color: #222222;
   background: #fefefe;
+}
+body a {
+  color: #00aaee;
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
 }
 /*******************************
 *            HEADER            *
@@ -33,6 +43,9 @@ main {
 main a {
   color: #00aaee;
 }
+main a:hover {
+  text-decoration: underline;
+}
 /*******************************
 *            FOOTER            *
 *******************************/
@@ -44,7 +57,8 @@ footer {
 }
 footer a {
   color: #00aaee;
+  text-decoration: none;
 }
-footer :hover {
+footer a:hover {
   text-decoration: underline;
 }
