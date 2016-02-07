@@ -3,6 +3,7 @@
 @text-color: #222;
 @brand: #0ae;
 @bg-color: #fefefe;
+.mrg{margin: 0 auto;}
 
 /********************************
 *            GENERAL            *
@@ -36,7 +37,11 @@ header{
     width: 100%;
     height: 100px;
     background: @text-color;
-    margin: 0 auto;
+    .mrg;
+	.wrapper{
+		width: 980px;
+		
+	}
 }
 
 /*****************************
@@ -47,13 +52,7 @@ main{
     width: 100%;
     height: 300px;
     background: @bg-color;
-    margin: 0 auto;
-    a{
-        color: @brand;
-    }
-    a:hover{
-        text-decoration: underline;
-    }
+   .mrg;
 }
 
 /*******************************
@@ -64,12 +63,5 @@ footer{
     width: 100%;
     height: 300px;
     background: @text-color;
-    margin: 0 auto;
-    a{
-        color: @brand;
-        text-decoration: none;
-    }
-    a:hover{
-        text-decoration: underline;
-    }
+    .mrg;
 }
